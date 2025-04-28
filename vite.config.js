@@ -10,4 +10,9 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    server: {
+        cors: {
+            origin: '*'
+        }
+    }
 });
